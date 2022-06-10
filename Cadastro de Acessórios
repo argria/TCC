@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina inicial.html">
+    <link rel="stylesheet" href="tcc.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: rgb(0, 0, 0);">
+
+    <h1 style="color: rgb(245, 130, 22);">Cadastro de Acessórios</h1>
+
+    <form action="exibir.php" method="post">
+        <label for="txtNome">Nome do produto:</label>
+        <input type="text" id="txtNome" name="txtNome" placeholder="Informe o nome" autofocus required>
+        <br><br>
+        <label for="txtCod">Código do Produto:</label>
+        <input type="text" id="txtCod" name="txtCod" placeholder="Informe o código do produto" required>
+        <br><br>
+        <label for="txtPreco">Preço:</label>
+        <input type="text" id="txtPreco" name="txtPreco" placeholder="Informe o preço" required>
+        <br><br>
+        <label for="txtQtde">Quantidade em estoque:</label>
+        <input type="text" id="txtQtde" name="txtQtde" placeholder="Informe a quantidade presente no estoque" required>
+        <br><br>
+        <input type="submit" value="Enviar" style="background-color: rgb(255, 136, 0);">
+        <input type="reset" value="Cancelar" style="background-color: rgb(255, 197, 130);">
+    </form>
+
+</body>
+
+</html>
